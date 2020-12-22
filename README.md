@@ -1,11 +1,11 @@
 # HLS_BlockFIR
-HLS program for block FIR
-Date: 2020/12/22
+HLS program for block FIR  
+Date: 2020/12/22   
 
-Author: D06943001 Yi-Yen Hsieh
-Mail: D06943001@ntu.edu.tw
+Author: D06943001 Yi-Yen Hsieh   
+Mail: D06943001@ntu.edu.tw   
 
-Reference: https://github.com/KastnerRG/pp4fpgas
+Reference: https://github.com/KastnerRG/pp4fpgas   
 
 ## Project Description
 This project utilizes block finite impulse response (block FIR) filter to perform signal processing. It can filter the original signal. The each input signal will be multiplied with the corresonding taps and then summed together as an output value.
