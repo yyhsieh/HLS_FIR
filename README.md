@@ -1,11 +1,11 @@
-# HLS_FIR
-HLS program for FIR
+# HLS_BlockFIR
+HLS program for block FIR
 Date: 2020/12/22
 
 Reference: https://github.com/KastnerRG/pp4fpgas
 
 ## Project Description
-This project utilizes finite impulse response (FIR) filter to perform signal processing. It can filter the original signal. The each input signal will be multiplied with the corresonding taps and then summed together as an output value.
+This project utilizes block finite impulse response (block FIR) filter to perform signal processing. It can filter the original signal. The each input signal will be multiplied with the corresonding taps and then summed together as an output value.
 
 I add another pragma ```#pragma HLS pipeline``` into the original code at line 7.
 
